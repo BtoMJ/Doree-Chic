@@ -16,9 +16,9 @@ function Nav() {
     <nav className="nav-container">
       {screenWidth < 768 && (
         <>
-          <div className="nav-logo-mobile">
+          {/* <div className="nav-logo-mobile">
             <NavLink to="/"></NavLink>
-          </div>
+          </div> */}
           <NavLink to="/cart" className="nav-cart-mobile">
             <CartIcon />
             <FaCartShopping

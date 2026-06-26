@@ -9,14 +9,18 @@ a {
 }
 
 :root {
-  --text: #6b6375;
-  --disabled: #3a3a3a;
+  --disabled: #666666;
   --text-h: #e2a730;
-  --bg: #fff;
+  --text-title: #68513f;
+  --text: #141414;
+  --bg: #ffffff;
+  --bg-card: #e9e2dc;
+  --border-blur: rgba(255, 255, 255, 0.25);
+  --bg-blur: rgba(255, 255, 255, 0.15);
   --bg-dark: #000000;
   --border: #e5e4e7;
   --code-bg: #f4f3ec;
-  --accent: #aa3bff;
+  --accent: #c9b6a4;
   --accent-bg: rgba(170, 59, 255, 0.1);
   --accent-border: rgba(170, 59, 255, 0.5);
   --social-bg: rgba(244, 243, 236, 0.5);
@@ -40,4 +44,11 @@ a {
   @media (max-width: 1024px) {
     font-size: 16px;
   }
+}
+
+.nav-container {
+  width: 90%;
+  height: 50px;
+  background-color: var(--bg);
+  position: absolute;
 }

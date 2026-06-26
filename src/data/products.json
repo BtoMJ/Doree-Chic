@@ -1,52 +1,82 @@
 [
   {
     "id": 1,
-    "name": "Gel Polish #37 Coffe",
+    "type": "shampoo",
+    "name": "8 extractos",
+    "description": "",
+    "ingredients": "",
     "price": 69
   },
   {
     "id": 2,
-    "name": "Gel Holografic #08 Rose Gold",
+    "type": "shampoo",
+    "name": "cebolla & ajo",
+    "description": "",
+    "ingredients": "",
     "price": 69
   },
   {
     "id": 3,
-    "name": "Gel Polish #33 Capri",
+    "type": "shampoo",
+    "name": "crece",
+    "description": "",
+    "ingredients": "",
     "price": 69
   },
   {
     "id": 4,
-    "name": "Gel Polish #10 Amarillo Neón",
+    "type": "shampoo",
+    "name": "gota de miel + minoxidil al 7%",
+    "description": "",
+    "ingredients": "",
     "price": 69
   },
   {
     "id": 5,
-    "name": "Gel Holografic #05 Verde",
+    "type": "shampoo",
+    "name": "minoxidil al 7% + bergamota ",
+    "description": "",
+    "ingredients": "",
     "price": 69
   },
   {
     "id": 6,
-    "name": "Gel Polish #29 Úrsula",
+    "type": "acondicionador",
+    "name": "linaza",
+    "description": "",
+    "ingredients": "",
     "price": 69
   },
   {
     "id": 7,
-    "name": "Gel Holografic Gold",
+    "type": "acondicionador",
+    "name": "rizos obedientes",
+    "description": "",
+    "ingredients": "",
     "price": 69
   },
   {
     "id": 8,
-    "name": "Gel Polish #74 Bublegum",
+    "type": "acondicionador",
+    "name": "lacios perfectos",
+    "description": "",
+    "ingredients": "",
     "price": 69
   },
   {
     "id": 9,
-    "name": "Gel Polish #48 Koala",
+    "type": "jabón líquido",
+    "name": "arroz y ácido hialurónico",
+    "description": "",
+    "ingredients": "",
     "price": 69
   },
   {
     "id": 10,
-    "name": "Gel Polish #36 Celeste",
+    "type": "jabón líquido",
+    "name": "avena y ácido hialurónico ",
+    "description": "",
+    "ingredients": "",
     "price": 69
   }
 ]

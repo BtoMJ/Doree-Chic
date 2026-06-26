@@ -1,0 +1,6 @@
+.ferrofluid-container {
+  width: 100dvw;
+  height: 100dvh;
+  position: relative;
+  overflow: hidden;
+}

@@ -5,11 +5,16 @@
   flex-direction: column;
   align-items: center;
   background-color: var(--bg-dark);
+  position: relative;
 
   .logo-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: absolute;
+    top: 9%;
+    z-index: 5;
 
     img {
       width: 70%;
@@ -29,7 +34,7 @@
     text-transform: uppercase;
   }
 
-  a {
+  .btn-home {
     color: var(--bg);
     padding: 10px 30px;
     border: 1px solid var(--text-h);

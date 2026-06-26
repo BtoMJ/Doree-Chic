@@ -1,0 +1,105 @@
+.card-container {
+  width: 100%;
+  height: 165px;
+  display: flex;
+  /* flex-direction: column; */
+  flex-direction: row;
+  align-items: center;
+  margin: 15px 0;
+  padding: 10px;
+  /* border: 1px solid #000; */
+  border-radius: 19px;
+  background-color: var(--bg-card);
+
+  .card-img-container {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 13px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .card-info-container {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    position: relative;
+
+    .type-product {
+      font-size: 1rem;
+      font-weight: 400;
+      margin-bottom: 7px;
+      color: var(--text);
+    }
+
+    .title-product {
+      color: var(--text-title);
+    }
+
+    .price-product {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: var(--text);
+    }
+
+    .card-overlay {
+      width: 90%;
+      display: flex;
+      justify-content: space-between;
+      position: absolute;
+      bottom: 10px;
+
+      .quantity-selector {
+        display: flex;
+        align-items: center;
+        gap: 0.3rem;
+
+        .btn-counter {
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          background-color: var(--accent);
+          color: var(--bg);
+          border: none;
+          font-size: 1.2rem;
+          cursor: pointer;
+        }
+
+        .quantity {
+          width: 20px;
+          text-align: center;
+          font-size: 1rem;
+          font-weight: 500;
+        }
+      }
+
+      .btn-add-to-cart {
+        height: 30px;
+        padding: 0 17px;
+        background-color: var(--text-title);
+        color: var(--bg);
+        border: none;
+        font-size: 1rem;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+
+        &:visited {
+          background-color: var(--accent);
+          color: var(--light);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.cat-container {
+  width: 100dvw;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--bg);
+
+  .cat-nav {
+    width: 100dvw;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 10px;
+    border: 1px solid #000;
+  }
+
+  .products-container {
+    width: 92dvw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+}
