@@ -14,6 +14,7 @@ function ProductCard() {
     <div className="card-container">
       <div className="card-img-container">
         <img src={extractos} alt="shampoo 8 extractos" />
+        <div className="details">+</div>
       </div>
 
       <div className="card-info-container">
