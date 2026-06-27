@@ -5,7 +5,7 @@
     "name": "8 extractos",
     "description": "Detiene la caída del cabello. Estimula el crecimiento fortalece la hebra capilar, contiene biotina, el cual ayuda a rehidratar y regenerar el cabello sin brillo y puntas secas. Gracias a sus ocho extractos y su fusión de hierbas limpia, fortalece revitaliza, detiene la caída al mismo tiempo que estimula el crecimiento ayudando a el nacimiento de cabello nuevo y sano",
     "ingredients": "Agua bidestilada, goma xantana, Decil glucosido, lauril glocosido, romero, canela, jengibre, linaza, ortiga, cebolla, clavos, café, cebolla, biotina, fragancia y color.",
-    "price": 69
+    "price": 140
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "name": "cebolla & ajo",
     "description": "Evita la caída del cabello y cuida el folículo capilar, aporta al cabello, nutrición, sedosidad y estimulación de crecimiento. Favorece la circulación sanguínea del cuero cabelludo. Pose actividad antimicrobiana y antifúngica, por lo que reduce la apariciónde caspa y además nutre la fibra capilar para evitar el adelgazamiento. Regula el exceso de grasa y picazón. Evita la rotura del cabello, devolviéndole al cabello a la fuerza, volumen y brillo.",
     "ingredients": "Agua bidestilada, goma xantana, Decil glucosido, lauril glocosido, extracto de cebolla, extracto de ajo, fragancia y color.",
-    "price": 69
+    "price": 120
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "name": "crece",
     "description": "Excelente para combatir la pérdida de cabello, abre nuevos folículos capilares al mismo tiempo que engrosa la hebra capilar, ayudando a eliminar problemas en el cuero cabelludo como caspa y seborrea.",
     "ingredients": "Agua bidestilada, goma xantana, Decil glucosido, lauril glocosido, aceite de coco, Romero, Chile, jojoba, Cacahuananche, sábila, alquitrán, bergamota, fragancia y color.",
-    "price": 69
+    "price": 130
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "name": "gota de miel + minoxidil al 7%",
     "description": "3 en 1 (crecimiento, evita pérdida de cabello y lo repara). Tiene propiedades humectantes. Aporta vitaminas de reparación a cabellos procesados, repara, cabello seco y deshidratado. Además, te ofrece estimular el folículo capilar piloso, el cual promueve brote de nuevo crecimiento de cabello, detiene la caída del mismo tiempo que lo engrosa.",
     "ingredients": "Agua bidestilada, goma xantana, Decil glucosido, lauril glocosido, gota de miel, minoxidil al 7%, vitamina E, fraganciay color.",
-    "price": 69
+    "price": 170
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "name": "minoxidil al 7% + bergamota ",
     "description": "Su principal función es estimular el crecimiento del cabello más rápido, detiene la pérdida de cabello, promueve el brote y regenera problemas ocasionados por calvicie, repara у estimula los folículos, capilares, pilosos y junto con un sano estilo de vida a los resultados son notorios.",
     "ingredients": "Agua bidestilada, goma xantana, Decil glucósido, lauril glocósido, extracto de bergamota, minoxidil al 7%, fragancia y color.",
-    "price": 69
+    "price": 170
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "name": "linaza",
     "description": "Restaura la humedad natural del cabello, reduciendo la resequedad, la caspa y y su caída, gracias a la linaza y la vitamina E que aporta nutrición y brillo natural.",
     "ingredients": "Agua bidestilada, btms50, espesantes, activadores, aloe Vera,  vitamina E, linaza  y fragancia.",
-    "price": 69
+    "price": 120
   },
   {
     "id": 7,
@@ -53,7 +53,7 @@
     "name": "rizos obedientes",
     "description": "Rizos bien definidos, con volumen controlado y movimiento, limpia y actúa en la fibra capilar, reduciendo el friz y manteniendo la forma de tus rizos entre cada fibra capilar de adentro, hacia fuera, efecto anti encrespamiento.",
     "ingredients": "Agua bidestilada, btms50, espesantes, activadores, aloe Vera, aceite de coco, proteína de frutas,linaza y fragancia.",
-    "price": 69
+    "price": 120
   },
   {
     "id": 8,
@@ -61,7 +61,7 @@
     "name": "lacios perfectos",
     "description": "Aporta suavidad al cabello elasticidad, hidratación, humectación y peso, el cabello lacio, elimina frizz y desenreda con facilidad.",
     "ingredients": "Agua bidestilada, btms50, espesantes, activadores, keratina hidrolizada, vitamina E, Biotina, colágeno, Fragancia y color.",
-    "price": 69
+    "price": 120
   },
   {
     "id": 9,
@@ -69,7 +69,7 @@
     "name": "arroz y ácido hialurónico",
     "description": "Regula el exceso de grasa y nivela el pH, elimina acné, siendo ideal para pieles de grasas a sensibles, calma el ardor, dolor, gracias al ácido hialurónico, además hidrata, humecta y blanquea el rostro a tono natural de la piel, ayuda a cicatrizar y atenuar marcas causadas por el acné, obteniendo una piel más suave y tersa.",
     "ingredients": "Agua bidestilada, agentes espesante, emulsionantes, glicerol, extracto de arroz, ácido hialuronico, vitamina E, fragancia y color. ",
-    "price": 69
+    "price": 100
   },
   {
     "id": 10,
@@ -77,6 +77,6 @@
     "name": "avena y ácido hialurónico ",
     "description": "Elimina manchas de marcas, causadas del sol, acné o quemaduras, dejando tu piel suave y Tersa, limpia y más clara, calma y alivia acné expuesto, gracias a la avena y la combinación del ácido hialurónico, controla el exceso de grasa e imperfecciones limpiando profundamente, los poros, retirando impuresas y maquillajes sin sacar la piel.",
     "ingredients": "Agua bidestilada, agentes espesante, emulsionantes, glicerol, Avena, ácido hialuronico, vitamina E, fragancia y color.",
-    "price": 69
+    "price": 100
   }
 ]
