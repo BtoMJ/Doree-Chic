@@ -20,11 +20,8 @@ a {
   --bg-dark: #000000;
   --bg-modal: rgba(0, 0, 0, 0.8);
   --border: #e5e4e7;
-  --code-bg: #f4f3ec;
   --accent: #c9b6a4;
-  --accent-bg: rgba(170, 59, 255, 0.1);
-  --accent-border: rgba(170, 59, 255, 0.5);
-  --social-bg: rgba(244, 243, 236, 0.5);
+  --whatsapp-bg: #25a135;
   --shadow:
     rgba(10, 10, 10, 0.5) 0 10px 15px -2px,
     rgba(10, 10, 10, 0.5) 0 4px 10px -1px;

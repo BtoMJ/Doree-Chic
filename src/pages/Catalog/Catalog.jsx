@@ -12,19 +12,21 @@ function Catalog() {
 
   const items = useCartStore((state) => state.items);
   return (
-    <section className="cat-container" id="cat">
+    <section className="cat-container">
       <div className="cat-nav">
         <div className="icon-cat-container">
           <NavLink to="/">
             <FaHouse className="icon-cat" />
           </NavLink>
         </div>
+
         <h2>Productos</h2>
+
         <div className="icon-cat-container">
+          <CartIcon />
           <NavLink to="/cart">
-            <CartIcon className="cart-icon-cat" />
             <FaCartShopping
-              className={items.length > 0 ? "icon-cat" : "icon-cat-cart"}
+              className={items.length > 0 ? "cart-cat-items" : "icon-cat-cart"}
             />
           </NavLink>
         </div>

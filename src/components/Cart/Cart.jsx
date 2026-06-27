@@ -54,7 +54,10 @@ function Cart() {
 
   return (
     <section className="cart">
-      <h2>Mi Pedido</h2>
+      <div className="cart-nav">
+        <h2>Mi Pedido</h2>
+      </div>
+
       <div className="cart-list">
         {items.map((item) => (
           <div key={item.id} className="cart-item">
@@ -87,6 +90,7 @@ function Cart() {
           </div>
         ))}
       </div>
+
       <div className="cart-summary">
         <h3>Total: ${total}</h3>
 

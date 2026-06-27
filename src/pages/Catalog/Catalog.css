@@ -38,11 +38,19 @@
 
       .icon-cat-cart {
         color: var(--text-h);
+        margin-top: 5px;
       }
 
       .cart-icon-cat {
         top: 10px;
         position: absolute;
+      }
+
+      .cart-cat-items {
+        color: var(--text-h);
+        position: relative;
+        margin-top: 5px;
+        right: 10px;
       }
     }
   }
