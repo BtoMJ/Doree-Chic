@@ -1,4 +1,4 @@
-import { NavLink, useLocation } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { useCartStore } from "../../store/cartStore.js";
 import CartIcon from "../../components/CardIcon/CardIcon";
 import products from "../../data/products.json";
@@ -7,9 +7,6 @@ import { FaHouse, FaCartShopping } from "react-icons/fa6";
 import "./Catalog.css";
 
 function Catalog() {
-  const location = useLocation();
-  console.log(location.pathname);
-
   const items = useCartStore((state) => state.items);
   return (
     <section className="cat-container">

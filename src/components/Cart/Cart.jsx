@@ -2,6 +2,7 @@ import { FaWhatsapp, FaRegTrashAlt } from "react-icons/fa";
 import { NavLink, useNavigate } from "react-router-dom";
 import { useCartStore } from "../../store/cartStore";
 import empty from "../../assets/empty.png";
+import logoNgo from "../../assets/logoNgo.png";
 import "./Cart.css";
 
 function Cart() {
@@ -43,6 +44,7 @@ function Cart() {
   if (items.length === 0) {
     return (
       <div className="empty-cart">
+        <img src={logoNgo} alt="logo negro" className="logo-ngo" />
         <img src={empty} alt="Carrito vacío" />
         <h2>Tu carrito está vacío</h2>
         <NavLink to="/catalog" className="btn-empty">
