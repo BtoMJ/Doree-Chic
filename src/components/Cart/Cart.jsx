@@ -32,7 +32,7 @@ function Cart() {
       "-------------------------------------------\n\n" +
       `💰 TOTAL: $${total}`;
 
-    const phone = "5214761037311";
+    const phone = "5214761235720";
 
     const urlWhatsApp = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
     window.open(urlWhatsApp, "_blank");

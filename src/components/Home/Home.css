@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   background-color: var(--bg-dark);
   position: relative;
 
@@ -13,31 +14,39 @@
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 9%;
     z-index: 5;
 
     img {
       width: 70%;
       margin-top: 6rem;
+
+      @media (min-width: 768px) {
+        width: 50%;
+        margin-top: 10rem;
+      }
     }
-  }
 
-  h1 {
-    color: var(--text-h);
-    font-family: "Google Sans Flex", sans-serif;
-    font-weight: 300;
-    text-align: center;
-    font-size: 1rem;
-    letter-spacing: 2px;
-    line-height: 30px;
-    margin-top: 1rem;
-    text-transform: uppercase;
-  }
+    h1 {
+      color: var(--text-h);
+      font-family: "Google Sans Flex", sans-serif;
+      font-weight: 300;
+      text-align: center;
+      font-size: 1rem;
+      letter-spacing: 2px;
+      line-height: 30px;
+      margin-top: 1rem;
+      text-transform: uppercase;
+    }
 
-  .btn-home {
-    color: var(--bg);
-    padding: 10px 30px;
-    border: 1px solid var(--text-h);
-    margin-top: 5rem;
+    .btn-home {
+      color: var(--bg);
+      padding: 10px 30px;
+      border: 1px solid var(--text-h);
+      margin-top: 35%;
+
+      @media (min-width: 768px) {
+        margin-top: 25%;
+      }
+    }
   }
 }
