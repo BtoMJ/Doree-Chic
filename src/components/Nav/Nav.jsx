@@ -6,23 +6,20 @@ import CartIcon from "../CardIcon/CardIcon";
 import "./Nav.css";
 
 function Nav() {
-  const screenWidth = window.innerWidth;
   const items = useCartStore((state) => state.items);
   console.log("ITEMS", items);
   return (
     <nav className="nav-container">
-      {screenWidth < 768 && (
-        <>
-          <NavLink to="/cart" className="nav-cart-mobile">
-            <div className={items.length > 0 ? "full" : ""}>
-              <CartIcon />
-              <FaCartShopping
-                className={items.length > 0 ? "items-cart" : "no-items-cart"}
-              />
-            </div>
-          </NavLink>
-        </>
-      )}
+      <>
+        <NavLink to="/cart" className="nav-cart-mobile">
+          <div className={items.length > 0 ? "full" : ""}>
+            <CartIcon />
+            <FaCartShopping
+              className={items.length > 0 ? "items-cart" : "no-items-cart"}
+            />
+          </div>
+        </NavLink>
+      </>
     </nav>
   );
 }

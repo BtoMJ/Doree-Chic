@@ -49,6 +49,6 @@ a {
 .nav-container {
   width: 90%;
   height: 50px;
-  background-color: var(--bg);
+
   position: absolute;
 }

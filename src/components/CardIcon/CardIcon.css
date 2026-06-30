@@ -12,6 +12,12 @@
   position: relative;
   top: -10px;
   left: 34px;
+
+  @media (min-width: 1280px) {
+    width: 15px;
+    height: 15px;
+    left: 32px;
+  }
 }
 
 .no-items {

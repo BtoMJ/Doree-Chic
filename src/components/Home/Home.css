@@ -16,12 +16,21 @@
     position: absolute;
     z-index: 5;
 
+    @media (min-width: 1280px) {
+      margin-top: -9rem;
+    }
+
     img {
       width: 70%;
       margin-top: 6rem;
 
       @media (min-width: 768px) {
         width: 50%;
+        margin-top: 10rem;
+      }
+
+      @media (min-width: 1280px) {
+        width: 35%;
         margin-top: 10rem;
       }
     }
@@ -46,6 +55,10 @@
 
       @media (min-width: 768px) {
         margin-top: 25%;
+      }
+
+      @media (min-width: 1024px) {
+        margin-top: 15%;
       }
     }
   }

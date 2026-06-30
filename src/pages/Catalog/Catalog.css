@@ -5,12 +5,7 @@
   flex-direction: column;
   align-items: center;
   background-color: var(--bg);
-
-  @media (min-width: 768px) {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
+  overflow-x: hidden;
 
   .cat-nav {
     width: 100dvw;
@@ -72,5 +67,17 @@
     flex-direction: row;
     flex-wrap: wrap;
     padding: 20px 0 20px 0;
+
+    @media (min-width: 768px) {
+      justify-content: space-around;
+    }
+
+    @media (min-width: 1024px) {
+      width: 80dvw;
+    }
+
+    @media (min-width: 1280px) {
+      width: 70dvw;
+    }
   }
 }
