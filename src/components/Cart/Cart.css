@@ -14,6 +14,11 @@
     font-family: "Inter", sans-serif;
     background-image: linear-gradient(0deg, rgb(46, 24, 24), #68513f);
 
+    @media (min-width: 768px) {
+      width: 100dvw;
+      height: 80px;
+    }
+
     h2 {
       color: var(--bg);
     }
@@ -34,6 +39,11 @@
       border-radius: 7px;
       box-shadow: var(--shadow-card);
       background-color: var(--bg-card);
+
+      @media (min-width: 768px) {
+        width: 300px;
+        margin: 1rem 0;
+      }
 
       .item-info {
         width: 60%;
@@ -121,6 +131,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+
+    @media (min-width: 768px) {
+      width: 300px;
+    }
 
     h3 {
       width: 100%;
