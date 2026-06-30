@@ -31,7 +31,6 @@ function Home() {
         glow={2}
         flowDirection="down"
         opacity={1}
-        mouseInteraction
         mouseStrength={1}
         mouseRadius={0.35}
       />

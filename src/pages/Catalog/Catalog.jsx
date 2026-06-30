@@ -29,9 +29,13 @@ function Catalog() {
         </div>
       </div>
       <div className="products-container">
-        {products.map((item) => (
-          <ProductCard key={item.id} product={item} />
-        ))}
+        {products.map((item) =>
+          item.status == true ? (
+            <ProductCard key={item.id} product={item} />
+          ) : (
+            ""
+          ),
+        )}
       </div>
     </section>
   );
